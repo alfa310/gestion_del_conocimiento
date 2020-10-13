@@ -1,0 +1,48 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/RobertoBalbuena">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Balbuena</vcard:Family>
+      <vcard:Given>Roberto</vcard:Given>
+    </vcard:N>
+    <vcard:TEL>893654221</vcard:TEL>
+    <vcard:TEL>663456719</vcard:TEL>
+    <vcard:EMAIL>rbalbuena@gmail.com</vcard:EMAIL>
+    <vcard:EMAIL>rbalb@pucp.edu.pe</vcard:EMAIL>
+    <vcard:FN>Roberto Balbuena</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/RobertoMelgar">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Melgar Sasieta</vcard:Family>
+      <vcard:Given>Roberto</vcard:Given>
+    </vcard:N>
+    <vcard:TEL>997654321</vcard:TEL>
+    <vcard:TEL>163456789</vcard:TEL>
+    <vcard:EMAIL>rmelgar@gmail.com</vcard:EMAIL>
+    <vcard:EMAIL>rmelgar@pucp.edu.pe</vcard:EMAIL>
+    <vcard:FN>Roberto Melgar</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/AndresMelgar">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Melgar Sasieta</vcard:Family>
+      <vcard:Given>Héctor Andrés</vcard:Given>
+    </vcard:N>
+    <vcard:TEL>987654321</vcard:TEL>
+    <vcard:TEL>123456789</vcard:TEL>
+    <vcard:EMAIL>amelgar@gmail.com</vcard:EMAIL>
+    <vcard:EMAIL>amelgar@pucp.edu.pe</vcard:EMAIL>
+    <vcard:FN>Andrés Melgar</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/AndresMendoza">
+    <vcard:N rdf:parseType="Resource">
+      <vcard:Family>Andrés Mendoza</vcard:Family>
+      <vcard:Given>Mendoza</vcard:Given>
+    </vcard:N>
+    <vcard:TEL>947652381</vcard:TEL>
+    <vcard:TEL>763453789</vcard:TEL>
+    <vcard:EMAIL>amendoza@gmail.com</vcard:EMAIL>
+    <vcard:EMAIL>amendoza@pucp.edu.pe</vcard:EMAIL>
+    <vcard:FN>Andrés</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>

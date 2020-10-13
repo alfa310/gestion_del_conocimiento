@@ -1,0 +1,32 @@
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:A04f2e408X2dXb9f1X2dX4ddcX2dX94e7X2dXef0f8d88a831 .
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "997654321"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "163456789"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "rmelgar@gmail.com"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "rmelgar@pucp.edu.pe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Roberto Melgar"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:A04f2e408X2dXb9f1X2dX4ddcX2dX94e7X2dXef0f8d88a831 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Melgar Sasieta"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:A04f2e408X2dXb9f1X2dX4ddcX2dX94e7X2dXef0f8d88a831 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Roberto"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:Aa3e5da81X2dX8585X2dX483dX2dXb782X2dX03a2dd5036e1 .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "987654321"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "123456789"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "amelgar@gmail.com"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "amelgar@pucp.edu.pe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMelgar> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Andr\u00E9s Melgar"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:A91f6db10X2dXe652X2dX4d4eX2dX8033X2dX03ca5bab7fad <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Balbuena"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:A91f6db10X2dXe652X2dX4d4eX2dX8033X2dX03ca5bab7fad <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Roberto"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:A91f6db10X2dXe652X2dX4d4eX2dX8033X2dX03ca5bab7fad .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "893654221"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "663456719"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "rbalbuena@gmail.com"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "rbalb@pucp.edu.pe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/RobertoBalbuena> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Roberto Balbuena"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#N> _:Ad3368497X2dX6c0cX2dX4dafX2dX8ae2X2dXff6ecf108901 .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "947652381"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#TEL> "763453789"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "amendoza@gmail.com"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "amendoza@pucp.edu.pe"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://www.pucp.edu.pe/AndresMendoza> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Andr\u00E9s"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Ad3368497X2dX6c0cX2dX4dafX2dX8ae2X2dXff6ecf108901 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Andr\u00E9s Mendoza"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Ad3368497X2dX6c0cX2dX4dafX2dX8ae2X2dXff6ecf108901 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "Mendoza"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Aa3e5da81X2dX8585X2dX483dX2dXb782X2dX03a2dd5036e1 <http://www.w3.org/2001/vcard-rdf/3.0#Family> "Melgar Sasieta"^^<http://www.w3.org/2001/XMLSchema#string> .
+_:Aa3e5da81X2dX8585X2dX483dX2dXb782X2dX03a2dd5036e1 <http://www.w3.org/2001/vcard-rdf/3.0#Given> "H\u00E9ctor Andr\u00E9s"^^<http://www.w3.org/2001/XMLSchema#string> .

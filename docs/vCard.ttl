@@ -1,0 +1,55 @@
+<http://www.pucp.edu.pe/RobertoBalbuena>
+      <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+              "rbalbuena@gmail.com" , "rbalb@pucp.edu.pe" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Roberto Balbuena" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#N>
+              [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                        "Balbuena" ;
+                <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                        "Roberto"
+              ] ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#TEL>
+              "663456719" , "893654221" .
+
+<http://www.pucp.edu.pe/RobertoMelgar>
+      <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+              "rmelgar@gmail.com" , "rmelgar@pucp.edu.pe" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Roberto Melgar" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#N>
+              [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                        "Melgar Sasieta" ;
+                <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                        "Roberto"
+              ] ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#TEL>
+              "997654321" , "163456789" .
+
+<http://www.pucp.edu.pe/AndresMelgar>
+      <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+              "amelgar@gmail.com" , "amelgar@pucp.edu.pe" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Andrés Melgar" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#N>
+              [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                        "Melgar Sasieta" ;
+                <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                        "Héctor Andrés"
+              ] ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#TEL>
+              "987654321" , "123456789" .
+
+<http://www.pucp.edu.pe/AndresMendoza>
+      <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+              "amendoza@gmail.com" , "amendoza@pucp.edu.pe" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+              "Andrés" ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#N>
+              [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                        "Andrés Mendoza" ;
+                <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                        "Mendoza"
+              ] ;
+      <http://www.w3.org/2001/vcard-rdf/3.0#TEL>
+              "947652381" , "763453789" .
