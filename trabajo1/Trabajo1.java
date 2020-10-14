@@ -1,6 +1,5 @@
 package trabajo1;
 
-import java.util.ArrayList;
 import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -17,8 +16,11 @@ import org.apache.jena.vocabulary.RDFS;
 public class Trabajo1 {
 
   public static void main(String[] args) {
-    System.out.println("Creando RDF...");
     start();
+  }
+
+  public static void log(String message){
+    System.out.println(message);
   }
 
   public static Property addProp(Model model, String uri, String name) {
@@ -48,15 +50,15 @@ public class Trabajo1 {
     Model modelOCDE_Ford = ModelFactory.createDefaultModel();
     modelOCDE_Ford.read(
       "https://concytec-pe.github.io/vocabularios/ocde_ford.xml"
-    );
+    ); // Campo que cubren las Tesis
     Model modelGradosAcademicos = ModelFactory.createDefaultModel();
     modelGradosAcademicos.read(
       "https://concytec-pe.github.io/vocabularios/renati_level.xml"
-    );
+    ); // Grados Academicos de las Personas
     Model modelTiposTrabajosInvestigacion = ModelFactory.createDefaultModel();
     modelTiposTrabajosInvestigacion.read(
-      "https://concytec-pe.github.io/vocabularios/renati_type.xml"
-    );
+      "https://concytec-pe.github.io/vocabularios/renati_type.xml"    
+    );  // Tesis
     return modelOCDE_Ford.union(
       modelGradosAcademicos.union(modelTiposTrabajosInvestigacion)
     );
@@ -239,7 +241,7 @@ public class Trabajo1 {
     }
   }
 
-    // 3) Obtener todas las Tesis
+    // 4) Obtener todas las Tesis
     public static void inferenciaOfUnionOrIntersection(Model model, String uri) {
       InfModel infModel = ModelFactory.createRDFSModel(model);
       Resource resource = getRes(model,"http://purl.org/pe-repo/renati/type#tesis");
@@ -252,16 +254,32 @@ public class Trabajo1 {
 
 
   public static void start() {
+    log("1) - Cargando Modelos Externos");
     Model model = mergeInitialModels();
     String uri = "http://www.pucp.edu.pe/#";
+    log("2) - Cargando Metadata");
     addClassMetadataToModel(model, uri);
     addPropertyMetadataToModel(model, uri);
+    log("3) - Cargando Instancias");
     addInstancias(model, uri);
-    // inferenciaOfSubClass(model, uri);
-    // inferenciaOfSubProperty(model, uri);
-    // inferenciaOfDomain(model, uri);
+    log("4) - Inferencia 1: Obtener todas las tesis de Maestria");
+    inferenciaOfSubClass(model, uri);
+    log("5) - Inferencia 2: Obtener todos los Asesores de la Tesis Expansion de los Sueños en la Estratosfera");
+    inferenciaOfSubProperty(model, uri);
+    log("6) - Inferencia 3: Obtener todos los Doctores del modelo");
+    inferenciaOfDomain(model, uri);
+    log("7) - Inferencia 4: Obtener todas las Tesis");
     inferenciaOfUnionOrIntersection(model, uri);
-    // Serializer serializer = new Serializer();
-    // serializer.saveModel(model, "RDF-XML");
+    Serializer serializer = new Serializer();
+    log("8) - Guardando modelo en formato RDF-XML");
+    serializer.saveModel(model, "RDF-XML");
+    log("9) - Guardando modelo en formato N-TRIPLE");
+    serializer.saveModel(model, "N-TRIPLE");
+    log("10) - Guardando modelo en formato TURTLE");
+    serializer.saveModel(model, "TURTLE");
+    log("11) - Guardando modelo en formato TTL");
+    serializer.saveModel(model, "TTL");
+    log("12) - Guardando modelo en formato N3");
+    serializer.saveModel(model, "N3");
   }
 }

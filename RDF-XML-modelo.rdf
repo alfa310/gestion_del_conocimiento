@@ -1,12 +1,14 @@
 <rdf:RDF
-    xmlns:dct="http://purl.org/dc/terms/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:sw-vocab="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://purl.org/pe-repo/renati/level#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns="http://purl.org/pe-repo/renati/type"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.pucp.edu.pe/#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
@@ -82,6 +84,35 @@
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.0:tituloProfesional rdf:about="http://www.pucp.edu.pe/#Diego Berolatti Gonzales">
+    <j.1:tieneTesis rdf:parseType="Resource">
+      <j.1:tesisDeMaestria>
+        <j.1:TesisEnDesarrollo rdf:about="http://www.pucp.edu.pe/#Expansión de los Sueños en la Estratosfera">
+          <j.1:tieneComoCampo>
+            <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04">
+              <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
+              <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.03.00"/>
+              <skosxl:prefLabel>
+                <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04_pref_label_es">
+                  <skosxl:literalForm xml:lang="es">Física nuclear</skosxl:literalForm>
+                </skosxl:Label>
+              </skosxl:prefLabel>
+              <skosxl:prefLabel>
+                <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04_pref_label_en">
+                  <skosxl:literalForm xml:lang="en">Nuclear physics</skosxl:literalForm>
+                </skosxl:Label>
+              </skosxl:prefLabel>
+            </skos:Concept>
+          </j.1:tieneComoCampo>
+        </j.1:TesisEnDesarrollo>
+      </j.1:tesisDeMaestria>
+      <j.1:tesisDePregrado>
+        <j.1:TesisDeBachiller rdf:about="http://www.pucp.edu.pe/#Construcción de un compilador de asertos de programación metódica"/>
+      </j.1:tesisDePregrado>
+    </j.1:tieneTesis>
+    <j.1:esAutorDe rdf:resource="http://www.pucp.edu.pe/#Construcción de un compilador de asertos de programación metódica"/>
+    <j.1:esAutorDe rdf:resource="http://www.pucp.edu.pe/#Expansión de los Sueños en la Estratosfera"/>
+  </j.0:tituloProfesional>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.05.02">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.05.00"/>
@@ -180,44 +211,6 @@
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisDeDoctorado">
-    <rdfs:subClassOf>
-      <skos:Concept rdf:about="http://purl.org/pe-repo/renati/type#tesis">
-        <skosxl:prefLabel>
-          <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/type#tesis_pref_label_es">
-            <skosxl:literalForm xml:lang="es">Tesis</skosxl:literalForm>
-          </skosxl:Label>
-        </skosxl:prefLabel>
-        <skos:definition>
-          <rdf:Description rdf:about="http://purl.org/pe-repo/renati/type#tesis_def_es">
-            <rdf:value xml:lang="es">Modalidad de obtención del grado
-académico o título profesional mediante un documento
-que contiene un trabajo de investigación en torno a un área
-académica determinada, implica el desarrollo del diseño y
-su implementación. Dicho documento debe ser original e
-inédito, y supone además una sustentación pública ante
-la comunidad académica en general y la aprobación de un
-jurado, que lo evalúa. Por tanto, la fecha del acto público
-de sustentación debe ser lo sufcientemente difundido
-para promover la transparencia y la participación de la
-comunidad académica en general. La tesis puede ser
-publicable y ejecutable.
-Opcionalmente, puede publicarse un artículo que dé
-cuenta de la tesis de maestría o doctorado y debe estar
-indexada a revistas de prestigio en el mundo académico,
-ver el Anexo N° 1.
-De acuerdo con la Ley Universitaria, el desarrollo de
-una tesis permite la obtención del título profesional y del
-título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.12)</rdf:value>
-          </rdf:Description>
-        </skos:definition>
-        <skos:topConceptOf>
-          <skos:ConceptScheme rdf:about="http://purl.org/pe-repo/renati/type"/>
-        </skos:topConceptOf>
-        <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/type"/>
-      </skos:Concept>
-    </rdfs:subClassOf>
-  </rdf:Description>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.04.00">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.00.00"/>
@@ -526,6 +519,9 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.0:maestro rdf:about="http://www.pucp.edu.pe/#Grecia Reyes Fernandez">
+    <j.1:esAsesorSecundarioDe rdf:resource="http://www.pucp.edu.pe/#Expansión de los Sueños en la Estratosfera"/>
+  </j.0:maestro>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.06.01">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.06.00"/>
@@ -587,7 +583,42 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisFormatoArticulo">
         <rdfs:subClassOf>
           <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisDeMaestria">
-            <rdfs:subClassOf rdf:resource="http://purl.org/pe-repo/renati/type#tesis"/>
+            <rdfs:subClassOf>
+              <skos:Concept rdf:about="http://purl.org/pe-repo/renati/type#tesis">
+                <skosxl:prefLabel>
+                  <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/type#tesis_pref_label_es">
+                    <skosxl:literalForm xml:lang="es">Tesis</skosxl:literalForm>
+                  </skosxl:Label>
+                </skosxl:prefLabel>
+                <skos:definition>
+                  <rdf:Description rdf:about="http://purl.org/pe-repo/renati/type#tesis_def_es">
+                    <rdf:value xml:lang="es">Modalidad de obtención del grado
+académico o título profesional mediante un documento
+que contiene un trabajo de investigación en torno a un área
+académica determinada, implica el desarrollo del diseño y
+su implementación. Dicho documento debe ser original e
+inédito, y supone además una sustentación pública ante
+la comunidad académica en general y la aprobación de un
+jurado, que lo evalúa. Por tanto, la fecha del acto público
+de sustentación debe ser lo sufcientemente difundido
+para promover la transparencia y la participación de la
+comunidad académica en general. La tesis puede ser
+publicable y ejecutable.
+Opcionalmente, puede publicarse un artículo que dé
+cuenta de la tesis de maestría o doctorado y debe estar
+indexada a revistas de prestigio en el mundo académico,
+ver el Anexo N° 1.
+De acuerdo con la Ley Universitaria, el desarrollo de
+una tesis permite la obtención del título profesional y del
+título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.12)</rdf:value>
+                  </rdf:Description>
+                </skos:definition>
+                <skos:topConceptOf>
+                  <skos:ConceptScheme rdf:about="http://purl.org/pe-repo/renati/type"/>
+                </skos:topConceptOf>
+                <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/type"/>
+              </skos:Concept>
+            </rdfs:subClassOf>
           </rdf:Description>
         </rdfs:subClassOf>
       </rdf:Description>
@@ -670,6 +701,28 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/#Michael Reeves">
+    <j.1:esJuradoDe>
+      <j.1:TesisDeDoctorado rdf:about="http://www.pucp.edu.pe/#7 Estrellas que Amortizan la Esperanza de Vida y el PBI">
+        <j.1:tieneComoCampo>
+          <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01">
+            <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
+            <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.02.00"/>
+            <skosxl:prefLabel>
+              <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01_pref_label_es">
+                <skosxl:literalForm xml:lang="es">Economía</skosxl:literalForm>
+              </skosxl:Label>
+            </skosxl:prefLabel>
+            <skosxl:prefLabel>
+              <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01_pref_label_en">
+                <skosxl:literalForm xml:lang="en">Economics</skosxl:literalForm>
+              </skosxl:Label>
+            </skosxl:prefLabel>
+          </skos:Concept>
+        </j.1:tieneComoCampo>
+      </j.1:TesisDeDoctorado>
+    </j.1:esJuradoDe>
+  </rdf:Description>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.05.02">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.05.00"/>
@@ -739,22 +792,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
         <skosxl:literalForm xml:lang="en">History and archaeology</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Segunda Especialidad</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skos:definition>
-      <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_def_es">
-        <rdf:value xml:lang="es">Requiere licenciatura u otro título profesional equivalente, haber aprobado los estudios de una duración mínima de dos semestres académicos con un contenido mínimo de cuarenta (40) créditos, así como la aprobación de una tesis o un trabajo académico. En el caso de residentado médico se rige por sus propias normas. Basado en Ley N° 30220.</rdf:value>
-      </rdf:Description>
-    </skos:definition>
-    <skos:topConceptOf>
-      <skos:ConceptScheme rdf:about="http://purl.org/pe-repo/renati/level"/>
-    </skos:topConceptOf>
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
   </skos:Concept>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#3.03.01">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
@@ -953,6 +990,25 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     </skosxl:prefLabel>
   </skos:Concept>
   <rdf:Description rdf:about="http://www.pucp.edu.pe/#esJuradoDe">
+    <rdfs:domain>
+      <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#doctor">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#doctor_pref_label_es">
+            <skosxl:literalForm xml:lang="es">Doctor</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+        <skos:definition>
+          <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#doctor_def_es">
+            <rdf:value xml:lang="es">Requiere haber obtenido el grado de Maestro, la aprobación de los estudios respectivos con una duración mínima de seis (6) semestres académicos, con un contenido mínimo de sesenta y cuatro (64) créditos y de una tesis de máxima rigurosidad académica y de carácter original, así como el dominio de dos idiomas extranjeros, uno de los cuales puede ser sustituido por una lengua nativa. Basado en Ley N° 30220.</rdf:value>
+          </rdf:Description>
+        </skos:definition>
+        <skos:topConceptOf>
+          <skos:ConceptScheme rdf:about="http://purl.org/pe-repo/renati/level"/>
+        </skos:topConceptOf>
+        <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
+      </skos:Concept>
+    </rdfs:domain>
     <rdfs:subPropertyOf rdf:resource="http://www.pucp.edu.pe/#esContribuyenteDe"/>
   </rdf:Description>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.07.02">
@@ -1204,20 +1260,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     <skosxl:prefLabel>
       <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.08.04_pref_label_en">
         <skosxl:literalForm xml:lang="en">Media and socio-cultural communication</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03">
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
-    <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.01.00"/>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Estadísticas, Probabilidad</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03_pref_label_en">
-        <skosxl:literalForm xml:lang="en">Statistics and probability</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
@@ -1927,6 +1969,24 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.1:TesisEnEvaluacion rdf:about="http://www.pucp.edu.pe/#Contraste Formal de Estructuras Dinamicas en Municipios">
+    <j.1:tieneComoCampo>
+      <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04">
+        <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
+        <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.01.00"/>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04_pref_label_es">
+            <skosxl:literalForm xml:lang="es">Ingeniería estructural y municipal</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04_pref_label_en">
+            <skosxl:literalForm xml:lang="en">Municipal and structural engineering</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+      </skos:Concept>
+    </j.1:tieneComoCampo>
+  </j.1:TesisEnEvaluacion>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#4.02.00">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/4.00.00"/>
@@ -1998,6 +2058,7 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     </skosxl:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#bachiller">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <skosxl:prefLabel>
       <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#bachiller_pref_label_es">
         <skosxl:literalForm xml:lang="es">Bachiller</skosxl:literalForm>
@@ -2039,6 +2100,9 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.0:tituloSegundaEspecialidad rdf:about="http://www.pucp.edu.pe/#Luis Vives Garnique">
+    <j.1:esAsesorSecundarioDe rdf:resource="http://www.pucp.edu.pe/#Expansión de los Sueños en la Estratosfera"/>
+  </j.0:tituloSegundaEspecialidad>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#4.02.02">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/4.02.00"/>
@@ -2052,20 +2116,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
         <skosxl:literalForm xml:lang="en">Husbandry</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional">
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Título Profesional</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skos:definition>
-      <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional_def_es">
-        <rdf:value xml:lang="es">Requiere del grado de Bachiller y la aprobación de una tesis o trabajo de suficiencia profesional. Las universidades acreditadas pueden establecer modalidades adicionales a estas últimas. El título profesional sólo se puede obtener en la universidad en la cual se haya obtenido el grado de bachiller. Basado en Ley N° 30220.</rdf:value>
-      </rdf:Description>
-    </skos:definition>
-    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
   </skos:Concept>
   <rdf:Description rdf:about="http://www.pucp.edu.pe/#esAsesorPrincipalDe">
     <rdfs:subPropertyOf>
@@ -2156,6 +2206,9 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.0:doctor rdf:about="http://www.pucp.edu.pe/#Viktor Khlebnikov">
+    <j.1:esAsesorPrincipalDe rdf:resource="http://www.pucp.edu.pe/#Expansión de los Sueños en la Estratosfera"/>
+  </j.0:doctor>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.05.01">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.05.00"/>
@@ -2380,20 +2433,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     <skosxl:prefLabel>
       <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#3.02.13_pref_label_en">
         <skosxl:literalForm xml:lang="en">Transplantation</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04">
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
-    <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.01.00"/>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Ingeniería estructural y municipal</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.04_pref_label_en">
-        <skosxl:literalForm xml:lang="en">Municipal and structural engineering</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
@@ -2694,20 +2733,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00">
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
-    <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.00.00"/>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Ingeniería civil</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00_pref_label_en">
-        <skosxl:literalForm xml:lang="en">Civil engineering</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-  </skos:Concept>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.01">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.03.00"/>
@@ -2918,20 +2943,6 @@ título de segunda especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#doctor">
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#doctor_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Doctor</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skos:definition>
-      <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#doctor_def_es">
-        <rdf:value xml:lang="es">Requiere haber obtenido el grado de Maestro, la aprobación de los estudios respectivos con una duración mínima de seis (6) semestres académicos, con un contenido mínimo de sesenta y cuatro (64) créditos y de una tesis de máxima rigurosidad académica y de carácter original, así como el dominio de dos idiomas extranjeros, uno de los cuales puede ser sustituido por una lengua nativa. Basado en Ley N° 30220.</rdf:value>
-      </rdf:Description>
-    </skos:definition>
-    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
-  </skos:Concept>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.02.02">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.02.00"/>
@@ -2997,20 +3008,6 @@ especialidad. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD, 4.14)</rdf:value>
     <skosxl:prefLabel>
       <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.10.01_pref_label_en">
         <skosxl:literalForm xml:lang="en">Nano-materials</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04">
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
-    <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.03.00"/>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Física nuclear</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.03.04_pref_label_en">
-        <skosxl:literalForm xml:lang="en">Nuclear physics</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
@@ -3324,9 +3321,24 @@ obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/type"/>
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/type"/>
   </skos:Concept>
-  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisEnDesarrollo">
-    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/#TesisFormatoTesis"/>
-  </rdf:Description>
+  <j.1:TesisEnDesarrollo rdf:about="http://www.pucp.edu.pe/#Implementación de una Sonaja Paralizadora para el Soporte de Puentes">
+    <j.1:tieneComoCampo>
+      <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00">
+        <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
+        <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.00.00"/>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00_pref_label_es">
+            <skosxl:literalForm xml:lang="es">Ingeniería civil</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#2.01.00_pref_label_en">
+            <skosxl:literalForm xml:lang="en">Civil engineering</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+      </skos:Concept>
+    </j.1:tieneComoCampo>
+  </j.1:TesisEnDesarrollo>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.00.00">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
@@ -3338,20 +3350,6 @@ obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
     <skosxl:prefLabel>
       <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.00.00_pref_label_en">
         <skosxl:literalForm xml:lang="en">Social sciences</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-  </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01">
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
-    <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.02.00"/>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Economía</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.01_pref_label_en">
-        <skosxl:literalForm xml:lang="en">Economics</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
@@ -3369,9 +3367,6 @@ obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisEnEvaluacion">
-    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/#TesisFormatoTesis"/>
-  </rdf:Description>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.02">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.02.00"/>
@@ -3400,9 +3395,6 @@ obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisDeBachiller">
-    <rdfs:subClassOf rdf:resource="http://purl.org/pe-repo/renati/type#tesis"/>
-  </rdf:Description>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#5.02.03">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/5.02.00"/>
@@ -3921,21 +3913,6 @@ obtención del grado de maestro. (Reglamento RENATI, RCD N° 033-2016-SUNEDU/CD,
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#maestro">
-    <skosxl:prefLabel>
-      <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#maestro_pref_label_es">
-        <skosxl:literalForm xml:lang="es">Maestro</skosxl:literalForm>
-      </skosxl:Label>
-    </skosxl:prefLabel>
-    <skos:definition>
-      <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#maestro_def_es">
-        <rdf:value xml:lang="es">Requiere haber obtenido el grado de Bachiller, la elaboración de una tesis o trabajo de investigación en la especialidad respectiva, haber aprobado los estudios de una duración mínima de dos (2) semestres académicos con un contenido mínimo de
-cuarenta y ocho (48) créditos y el dominio de un idioma extranjero o lengua nativa. Basado en Ley N° 30220.</rdf:value>
-      </rdf:Description>
-    </skos:definition>
-    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
-    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
-  </skos:Concept>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.06.15">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.06.00"/>
@@ -3950,6 +3927,24 @@ cuarenta y ocho (48) créditos y el dominio de un idioma extranjero o lengua nat
       </skosxl:Label>
     </skosxl:prefLabel>
   </skos:Concept>
+  <j.1:TesisFormatoArticulo rdf:about="http://www.pucp.edu.pe/#La Libertad y la Guerra, como estan Relacionadas y sus Probables Consecuencias">
+    <j.1:tieneComoCampo>
+      <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03">
+        <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
+        <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/1.01.00"/>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03_pref_label_es">
+            <skosxl:literalForm xml:lang="es">Estadísticas, Probabilidad</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+        <skosxl:prefLabel>
+          <skosxl:Label rdf:about="http://purl.org/pe-repo/ocde/ford#1.01.03_pref_label_en">
+            <skosxl:literalForm xml:lang="en">Statistics and probability</skosxl:literalForm>
+          </skosxl:Label>
+        </skosxl:prefLabel>
+      </skos:Concept>
+    </j.1:tieneComoCampo>
+  </j.1:TesisFormatoArticulo>
   <skos:Concept rdf:about="http://purl.org/pe-repo/ocde/ford#2.07.00">
     <skos:inScheme rdf:resource="http://purl.org/pe-repo/ocde/ford"/>
     <skos:broader rdf:resource="https://concytec-pe.github.io/vocabularios/2.00.00"/>
@@ -3991,5 +3986,59 @@ cuarenta y ocho (48) créditos y el dominio de un idioma extranjero o lengua nat
         <skosxl:literalForm xml:lang="en">Educational sciences</skosxl:literalForm>
       </skosxl:Label>
     </skosxl:prefLabel>
+  </skos:Concept>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisDeDoctorado">
+    <rdfs:subClassOf rdf:resource="http://purl.org/pe-repo/renati/type#tesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_def_es">
+    <rdf:value xml:lang="es">Requiere licenciatura u otro título profesional equivalente, haber aprobado los estudios de una duración mínima de dos semestres académicos con un contenido mínimo de cuarenta (40) créditos, así como la aprobación de una tesis o un trabajo académico. En el caso de residentado médico se rige por sus propias normas. Basado en Ley N° 30220.</rdf:value>
+  </rdf:Description>
+  <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es">
+    <skosxl:literalForm xml:lang="es">Título Profesional</skosxl:literalForm>
+  </skosxl:Label>
+  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <skosxl:prefLabel>
+      <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_pref_label_es">
+        <skosxl:literalForm xml:lang="es">Segunda Especialidad</skosxl:literalForm>
+      </skosxl:Label>
+    </skosxl:prefLabel>
+    <skos:definition rdf:resource="http://purl.org/pe-repo/renati/level#tituloSegundaEspecialidad_def_es"/>
+    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
+    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
+  </skos:Concept>
+  <skosxl:Label rdf:about="http://purl.org/pe-repo/renati/level#maestro_pref_label_es">
+    <skosxl:literalForm xml:lang="es">Maestro</skosxl:literalForm>
+  </skosxl:Label>
+  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/renati/level#tituloProfesional_pref_label_es"/>
+    <skos:definition>
+      <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#tituloProfesional_def_es">
+        <rdf:value xml:lang="es">Requiere del grado de Bachiller y la aprobación de una tesis o trabajo de suficiencia profesional. Las universidades acreditadas pueden establecer modalidades adicionales a estas últimas. El título profesional sólo se puede obtener en la universidad en la cual se haya obtenido el grado de bachiller. Basado en Ley N° 30220.</rdf:value>
+      </rdf:Description>
+    </skos:definition>
+    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
+    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
+  </skos:Concept>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisEnDesarrollo">
+    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/#TesisFormatoTesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisEnEvaluacion">
+    <rdfs:subClassOf rdf:resource="http://www.pucp.edu.pe/#TesisFormatoTesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.pucp.edu.pe/#TesisDeBachiller">
+    <rdfs:subClassOf rdf:resource="http://purl.org/pe-repo/renati/type#tesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/pe-repo/renati/level#maestro_def_es">
+    <rdf:value xml:lang="es">Requiere haber obtenido el grado de Bachiller, la elaboración de una tesis o trabajo de investigación en la especialidad respectiva, haber aprobado los estudios de una duración mínima de dos (2) semestres académicos con un contenido mínimo de
+cuarenta y ocho (48) créditos y el dominio de un idioma extranjero o lengua nativa. Basado en Ley N° 30220.</rdf:value>
+  </rdf:Description>
+  <skos:Concept rdf:about="http://purl.org/pe-repo/renati/level#maestro">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <skosxl:prefLabel rdf:resource="http://purl.org/pe-repo/renati/level#maestro_pref_label_es"/>
+    <skos:definition rdf:resource="http://purl.org/pe-repo/renati/level#maestro_def_es"/>
+    <skos:topConceptOf rdf:resource="http://purl.org/pe-repo/renati/level"/>
+    <skos:inScheme rdf:resource="http://purl.org/pe-repo/renati/level"/>
   </skos:Concept>
 </rdf:RDF>
